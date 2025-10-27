@@ -1,9 +1,9 @@
-name:21f1003667@ds.study.iitm.ac.in
+name: 21f1003667@ds.study.iitm.ac.in
 
 on:
   schedule:
     # Runs at 00:00 UTC every day
-    - cron: "2 2 : 0 5"
+    - cron: "18 22 * * *"
   workflow_dispatch: # Allow manual triggers
 
 jobs:
